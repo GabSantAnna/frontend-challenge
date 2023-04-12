@@ -3,4 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: ['tractian-img.s3.amazonaws.com'],
+  }, 
+  nextConfig
+}
